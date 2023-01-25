@@ -1,3 +1,4 @@
+#this program is for crud operation in postgresql database
 from flask import *
 import psycopg2
 connection=psycopg2.connect(user="postgres",database="bubtlab",password="sad@2600")
